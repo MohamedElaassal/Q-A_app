@@ -1,6 +1,5 @@
-<!-- filepath: c:\xampp\htdocs\laravel-12-app\resources\views\livewire\add-question.blade.php -->
 <div>
-    <div x-data="{isOpen : false}">
+    <div x-data="{isOpen : false}" >
         <button
            x-on:click="isOpen = true"
            class="cursor-pointer ml-3 my-3 py-1 px-2 text-lg bg-slate-300  border-white hover:border-2 hover:border-slate-300 hover:bg-white hover:text-slate-600"
@@ -11,7 +10,7 @@
         <div
             x-show="isOpen"
             style="background-color: rgba(0, 0, 0, .5)"
-            class=" mx-auto absolute top-0 left-0 sm:w-full h-full flex items-center shadow-lg overflow-y-auto"
+            class=" mx-auto absolute top-0 left-0 w-full h-full flex items-center justify-center shadow-lg overflow-y-auto"
         >
             <div class="container mx-auto rounded p-4 mt-2 overflow-y-auto">
                 <div class="bg-white rounded px-8 py-8 relative">
