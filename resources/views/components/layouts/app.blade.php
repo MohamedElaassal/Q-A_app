@@ -12,7 +12,7 @@
 
         <header class="bg-slate-300 my-1 mx-3 p-4">
             <nav class="flex justify-between">
-                <h2 class="font-medium text-2xl font-mono">FAQ page</h2>
+                <h2 class="font-medium text-2xl font-mono">Q<span class="text-xl font-medium">&</span>A page</h2>
                 <input class="border-2 border-slate-400 text-center" type="text" placeholder="Search...">
             </nav>
         </header>
