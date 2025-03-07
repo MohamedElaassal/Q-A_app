@@ -1,7 +1,6 @@
 <?php
 
+use App\Livewire\Question;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    //return view('welcome');
-});
+Route::get('/', Question::class);
