@@ -10,8 +10,8 @@
         <div
             x-show="isOpen"
             style="background-color: rgba(0, 0, 0, .5)"
-            class=" mx-auto absolute top-0 left-0 w-full h-full flex items-center justify-center shadow-lg overflow-y-auto"
-        >
+            class="fixed top-0 left-0 w-full h-screen flex items-center justify-center shadow-lg overflow-y-auto z-50"
+            >
             <div class="container mx-auto rounded p-4 mt-2 overflow-y-auto">
                 <div class="bg-white rounded px-8 py-8 relative">
                     <h1 class="font-bold text-2xl mb-3">Add New Question</h1>
