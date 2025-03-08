@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\softDeletes;
 use App\Models\Question;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class CustormUser extends Model
+class CustomUser extends Model
 {
     use HasFactory;
     use softDeletes;

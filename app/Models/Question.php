@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Models\CustormUser;
+use App\Models\CustomUser;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -14,6 +14,6 @@ class Question extends Model
     use SoftDeletes;
 
     public function user() {
-        return $this->belongsTo(CustormUser::class);
+        return $this->belongsTo(CustomUser::class);
     }
 }

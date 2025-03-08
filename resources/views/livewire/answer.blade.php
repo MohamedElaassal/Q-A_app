@@ -17,11 +17,9 @@
                 <div class="bg-white rounded px-8 py-8 relative">
                     <h1 class="font-medium text-2xl mb-3 text-slate-400">List of answers</h1>
                     <div class="modal-body">
-                        <p class="text-sm italic"> autor : mohamed el assal</p>
-                        <p class="text-lg "> content : Lorem ipsum dolor sit amet habt khel baba</p>
-                        <br>
-                        <p class="text-sm italic"> autor : mohamed el assal</p>
-                        <p class="text-lg "> content : Lorem ipsum dolor sit amet habt khel baba</p>
+                        <p class="text-sm italic"> autor : {{ $question->user->name }}</p>
+                        <p class="text-lg "> content : {{ $question->answer }}</p>
+
                     </div>
                     <div class="mt-4">
                         <button x-on:click="isOpen = false" class="cursor-pointer absolute -top-4 right-0 bg-red-500 text-2xl text-white px-3 py-1 mt-4 rounded">X</button>
