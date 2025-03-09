@@ -3,7 +3,7 @@
     <div x-data="{isOpen : false}">
         <button
            x-on:click="isOpen = true"
-           class="cursor-pointer hover:shadow-xs hover:font-medium hover:text-slate-500 italic text-sm cursor-pointe"
+           class="text-slate-700 cursor-pointer hover:shadow-xs hover:font-medium hover:text-slate-900 italic text-sm cursor-pointe"
         >
             Show answers
         </button>

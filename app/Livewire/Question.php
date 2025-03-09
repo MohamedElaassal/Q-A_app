@@ -18,4 +18,9 @@ class Question extends Component
     {
         return view('livewire.question');
     }
+
+    public function delete(QuestionModel $qst){
+        $qst->delete();
+        $this->redirect('/',navigate:true);
+    }
 }
